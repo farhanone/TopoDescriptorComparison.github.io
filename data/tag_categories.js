@@ -1,16 +1,20 @@
 const userDefinedTagCategories = {
-	"category": {
+	"visualization_tasks": {
 		"description": "type of dataset"
 	},
-	"task": {
+	"visualization_subtasks": {
 		"description": "task to solve"
 	},
-	"td":{
+	"topological_descriptors":{
 		"description": "Topological Descriptor used in paper"
 	},
-	"cm":{
+	"comparative_measures":{
 		"description": "Comparitive measure used"
+	},
+	"applications":{
+		"description": "applications"
 	}
+	
 	
 }
 
