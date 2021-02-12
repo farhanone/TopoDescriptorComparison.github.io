@@ -47,6 +47,19 @@
         "type": "article",
         "year": "2020"
     },
+    "AhrensGeveciLaw2005": {
+        "abstract": "This paper describes the design and features of a visualization tool, called ParaViewi, a tool for scientists to visualize and analysis extremely large data sets. The tool provides a graphical user interface for the creation and dynamic execution of visualization tasks. ParaView transparently supports the visualization and rendering of large data sets by executing these programs in parallel on shared or distributed memory machines. ParaView supports hardware-accelerated parallel rendering and achieves interactive rendering performance via level-of-detail techniques. The design balances and integrates a number of diverse requirements including the ability to handle large data, ease of use and extensibility by developers. This paper describes the requirements that guided the design, identifies their importance to scientific users, and discusses key design decision and tradeoffs.",
+        "author": "James Ahrens and Berk Geveci and Charles Law",
+        "bdsk-url-1": "http://datascience.dsscale.org/wp-content/uploads/sites/3/2016/06/ParaView.pdf",
+        "date-added": "2021-02-07 12:55:22 -0700",
+        "date-modified": "2021-02-07 12:55:22 -0700",
+        "journal": "The Visualization Handbook",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "717",
+        "title": "ParaView: An End-User Tool for Large-Data Visualization",
+        "type": "article",
+        "year": "2005"
+    },
     "AlliliCorriveau2007": {
         "author": "Allili, Madjid and Corriveau, David",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -75,8 +88,8 @@
         "volume": "46",
         "year": "2013"
     },
-    "BarralBiasotti2014": {
-        "author": "Vincent Barral and Silvia Biasotti",
+    "BarraBiasotti2014": {
+        "author": "Vincent Barra and Silvia Biasotti",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "The Visual Computer",
@@ -142,11 +155,11 @@
     "BeckKochWeiskopf2015": {
         "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
         "date-added": "2021-02-05 09:39:05 +0100",
-        "date-modified": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-06 10:27:01 -0700",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "topological_descriptors:other, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "number": "1",
-        "pages": "180--189",
+        "pages": "180-189",
         "publisher": "IEEE",
         "title": "Visual analysis and dissemination of scientific literature collections with {S}urVis",
         "type": "article",
@@ -218,10 +231,10 @@
         "author": "Biasotti, Silvia and Cerri, Andrea and Bronstein, Alexander M and Bronstein, Michael M",
         "booktitle": "Eurographics (State of the Art Reports)",
         "date-added": "2021-02-05 09:39:05 +0100",
-        "date-modified": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-06 12:09:23 -0700",
         "keywords": "topological_descriptors:other, comparative_measures:other, visualization_tasks:other, visualization_subtasks:shape retrieval, applications:other",
-        "pages": "135--159",
-        "title": "Quantifying 3D Shape Similarity Using Maps: Recent Trends, Applications and Perspectives.",
+        "pages": "135-159",
+        "title": "Quantifying 3D Shape Similarity Using Maps: Recent Trends, Applications and Perspectives",
         "type": "inproceedings",
         "year": "2014"
     },
@@ -270,7 +283,7 @@
         "pages": "3-27",
         "publisher": "Springer",
         "title": "Overview and State-of-the-Art of Uncertainty Visualization",
-        "type": "incolection",
+        "type": "incollection",
         "year": "2014"
     },
     "BremerWeberPascucci2010": {
@@ -375,6 +388,21 @@
         "type": "article",
         "volume": "10",
         "year": "2010"
+    },
+    "CarlssonZomorodian2009": {
+        "abstract": "Persistent homology captures the topology of a filtration---a one-parameter family of increasing spaces---in terms of a complete discrete invariant. This invariant is a multiset of intervals that denote the lifetimes of the topological entities within the filtration. In many applications of topology, we need to study a multifiltration: a family of spaces parameterized along multiple geometric dimensions. In this paper, we show that no similar complete discrete invariant exists for multidimensional persistence. Instead, we propose the rank invariant, a discrete invariant for the robust estimation of Betti numbers in a multifiltration, and prove its completeness in one dimension.",
+        "author": "Carlsson, G. and Zomorodian, A.",
+        "bdsk-url-1": "https://doi.org/10.1007/s00454-009-9176-0",
+        "date-added": "2021-02-07 11:51:54 -0700",
+        "date-modified": "2021-02-07 11:52:13 -0700",
+        "journal": "Discrete {\\&} Computational Geometry",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "number": "1",
+        "pages": "71-93",
+        "title": "The Theory of Multidimensional Persistence",
+        "type": "article",
+        "volume": "42",
+        "year": "2009"
     },
     "CarlssonZomorodianCollins2004": {
         "author": "Gunnar Carlsson and Afra J. Zomorodian and Anne Collins and Leonidas J. Guibas",
@@ -507,6 +535,17 @@
         "type": "article",
         "volume": "53",
         "year": "2015"
+    },
+    "ChowdhuryNeedham2020": {
+        "author": "Samir Chowdhury and Tom Needham",
+        "date-added": "2021-02-06 13:29:57 -0700",
+        "date-modified": "2021-02-06 13:29:57 -0700",
+        "journal": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "842-843",
+        "title": "Gromov-Wasserstein Averaging in a Riemannian Framework",
+        "type": "article",
+        "year": "2020"
     },
     "Cohen-SteinerEdelsbrunnerHarer2007": {
         "author": "David Cohen-Steiner and Herbert Edelsbrunner and John Harer",
@@ -666,7 +705,7 @@
         "year": "2004"
     },
     "EdelsbrunnerHarerPatel2008": {
-        "address": "College Park, MD, USA ",
+        "address": "College Park, MD, USA",
         "author": "Edelsbrunner, Herbert and Harer, John and Patel, Amit K",
         "booktitle": "Proceedings of the 24th Annual Symposium on Computational Geometry",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -751,6 +790,18 @@
         "volume": "29",
         "year": "2013"
     },
+    "FriesenAlmgrenLukic2016": {
+        "author": "Brian Friesen and Ann Almgren and Zarija Lukic and Gunther Weber and Dmitriy Morozov and Vincent Beckner and Marcus Day",
+        "date-added": "2021-02-06 13:56:53 -0700",
+        "date-modified": "2021-02-06 13:57:59 -0700",
+        "journal": "Computational Astrophysics and Cosmology",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "1-18",
+        "title": "In situ and in-transit analysis of cosmological simulations",
+        "type": "article",
+        "volume": "3",
+        "year": "2016"
+    },
     "GasparovicMunchOudot2019": {
         "author": "Ellen Gasparovic and Elizabeth Munch and Steve Oudot and Katharine Turner and Bei Wang and Yusu Wang",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -798,6 +849,19 @@
         "volume": "45",
         "year": "2008"
     },
+    "GuntherReininghausSeidel2014": {
+        "author": "David G\\\"{u}nther and Jan Reininghaus and Hans-Peter Seidel and Tino Weinkauf",
+        "booktitle": "Topological Methods in Data Analysis and Visualization III",
+        "date-added": "2021-02-07 11:44:41 -0700",
+        "date-modified": "2021-02-07 11:44:41 -0700",
+        "editor": "Bremer, Peer-Timo and Hotz, Ingrid and Pascucci, Valerio and Peikert, Ronald",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "135-150",
+        "publisher": "Springer International Publishing",
+        "title": "Notes on the Simplification of the {M}orse-{S}male Complex",
+        "type": "incollection",
+        "year": "2014"
+    },
     "GuntherSalmonTierny2014": {
         "author": "David G\\\"{u}nther and Joseph Salmon and Julien Tierny",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -824,6 +888,41 @@
         "type": "article",
         "volume": "33",
         "year": "2014"
+    },
+    "GyulassyBremerPascucci2019": {
+        "author": "Attila Gyulassy and Peer-Timo Bremer and Valerio Pascucci",
+        "date-added": "2021-02-07 12:47:16 -0700",
+        "date-modified": "2021-02-07 12:47:54 -0700",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "number": "1",
+        "pages": "1183-1192",
+        "title": "Shared-Memory Parallel Computation of Morse-Smale Complexes with Improved Accuracy",
+        "type": "article",
+        "volume": "25",
+        "year": "2019"
+    },
+    "HajijAssiriRosen2020": {
+        "author": "Mustafa Hajij and Basem Assiri and Paul Rosen",
+        "date-added": "2021-02-06 14:08:08 -0700",
+        "date-modified": "2021-02-06 14:08:08 -0700",
+        "journal": "Proceedings of the Future Technologies Conference (FTC)",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "717-731",
+        "title": "Parallel Mapper",
+        "type": "article",
+        "volume": "2",
+        "year": "2020"
+    },
+    "HajijWangScheidegger2018": {
+        "author": "Mustafa Hajij and Bei Wang and Carlos Scheidegger and Paul Rosen",
+        "date-added": "2021-02-06 13:13:48 -0700",
+        "date-modified": "2021-02-06 13:13:48 -0700",
+        "journal": "IEEE Pacific Visualization Symposium (PacificVis)",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "title": "Visual Detection of Structural Changes in Time-Varying Graphs Using Persistent Homology",
+        "type": "article",
+        "year": "2018"
     },
     "HajijZhangLiu2020": {
         "author": "Hajij, Mustafa and Zhang, Yunhao and Liu, Haowen and Rosen, Paul",
@@ -894,11 +993,11 @@
         "abstract": "How can the notion of topological structures for single scalar fields be extended to multifields? In this paper we propose a definition for such structures using the concepts of Pareto optimality and Pareto dominance. Given a set of piecewise-linear, scalar functions over a common simplical complex of any dimension, our method finds regions of ``consensus'' among single fields critical points and their connectivity relations. We show that our concepts are useful to data analysis on real-world examples originating from fluid-flow simulations; in two cases where the consensus of multiple scalar vortex predictors is of interest and in another case where one predictor is studied under different simulation parameters. We also compare the properties of our approach with current alternatives.",
         "author": "Lars Huettenberger and Christian Heine and Hamish Carr and Gerik Scheuermann and Christoph Garth",
         "date-added": "2021-02-05 09:39:05 +0100",
-        "date-modified": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-06 23:10:52 -0700",
         "journal": "Computer Graphics Forum",
         "keywords": "visualization_tasks:single scalar field, visualization_subtasks:other, topological_descriptors:other, comparative_measures:other,applications:other",
         "number": "3",
-        "pages": "341--350",
+        "pages": "341-350",
         "title": "Towards Multifield Scalar Topology Based on Pareto Optimality",
         "type": "article",
         "volume": "32",
@@ -1027,6 +1126,26 @@
         "volume": "31",
         "year": "2018"
     },
+    "Lesnick2012": {
+        "author": "Michael Lesnick",
+        "date-added": "2021-02-07 11:54:19 -0700",
+        "date-modified": "2021-02-07 11:55:02 -0700",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "school": "Stanford University",
+        "title": "Multidimensional Interleavings and Applications to Topological Inference",
+        "type": "phdthesis",
+        "year": "2012"
+    },
+    "LiPalandeWang2021": {
+        "author": "Mingzhe Li and Sourabh Palande and Bei Wang",
+        "date-added": "2021-02-06 13:24:37 -0700",
+        "date-modified": "2021-02-06 13:25:15 -0700",
+        "journal": "arXiv preprint arXiv:2101.03196",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "title": "Sketching Merge Trees",
+        "type": "article",
+        "year": "2021"
+    },
     "LiWangAscoli2017": {
         "author": "Yanjie Li and Dingkang Wang and Giorgio A. Ascoli and Partha Mitra and Yusu Wang",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1114,7 +1233,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "Journal of Machine Learning Research",
-        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other,dimensionality reduction, manifold learning, embedding algorithms, multidimensional scaling, SNE",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:dimensionality reduction, manifold learning, embedding algorithms, multidimensional scaling, SNE",
         "title": "Visualizing high-dimensional data using t-sne",
         "type": "article",
         "volume": "9",
@@ -1176,6 +1295,28 @@
         "title": "Interleaving Distance between Merge Trees",
         "type": "article",
         "year": "2013"
+    },
+    "MorozovWeber2013": {
+        "author": "Morozov, Dmitriy and Weber, Gunther",
+        "date-added": "2021-02-06 14:09:03 -0700",
+        "date-modified": "2021-02-06 14:09:35 -0700",
+        "journal": "Proceedings of the {ACM SIGPLAN} Symposium on Principles and Practice of Parallel Programming",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "93-102",
+        "title": "Distributed Merge Trees",
+        "type": "article",
+        "year": "2013"
+    },
+    "MorozovWeber2014": {
+        "author": "Dmitriy Morozov and Gunther Weber",
+        "date-added": "2021-02-06 14:09:03 -0700",
+        "date-modified": "2021-02-06 14:09:03 -0700",
+        "journal": "Topological Methods in Data Analysis and Visualization III: Theory, Algorithms, and Applications, Mathematics and Visualization",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "pages": "89-102",
+        "title": "Distributed Contour Trees",
+        "type": "article",
+        "year": "2014"
     },
     "MunchStefanou2018": {
         "abstract": "There are many metrics available to compare phylogenetic trees since this is a fundamental task in computational biology. In this paper, we focus on one such metric, the $\\ell^\\infty$-cophenetic metric introduced by Cardona et al. This metric works by representing a phylogenetic tree with $n$ labeled leaves as a point in  $\\mathbb{R}^{n(n+1)/2}$  known as the cophenetic vector, then comparing the two resulting Euclidean points using the $\\ell^\\infty$ distance. Meanwhile, the interleaving distance is a formal categorical construction generalized from the definition of Chazal et al., originally introduced to compare persistence modules arising from the field of topological data analysis. We show that the $\\ell^\\infty$-cophenetic metric is an example of an interleaving distance. To do this, we define phylogenetic trees as a category of merge trees with some additional structure, namely, labelings on the leaves plus a requirement that morphisms respect these labels. Then we can use the definition of a flow on this category to give an interleaving distance. Finally, we show that, because of the additional structure given by the categories defined, the map sending a labeled merge tree to the cophenetic vector is, in fact, an isometric embedding, thus proving that the $\\ell^\\infty$-cophenetic metric is an interleaving dis",
@@ -1393,11 +1534,11 @@
     "RieckFugacciLukasczyk2017": {
         "author": "Rieck, Bastian and Fugacci, Ulderico and Lukasczyk, Jonas and Leitte, Heike",
         "date-added": "2021-02-05 09:39:05 +0100",
-        "date-modified": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-06 12:17:15 -0700",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
         "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other",
         "number": "1",
-        "pages": "822--831",
+        "pages": "822-831",
         "title": "Clique community persistence: A topological visual analysis approach for complex networks",
         "type": "article",
         "volume": "24",
@@ -1676,6 +1817,16 @@
         "volume": "26",
         "year": "2020"
     },
+    "SubhashPandeyNatarajan2020": {
+        "author": "Varshini Subhash and Karran Pandey and Vijay Natarajan",
+        "date-added": "2021-02-07 12:45:51 -0700",
+        "date-modified": "2021-02-07 12:46:38 -0700",
+        "journal": "IEEE Visualization Conference",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "title": "GPU Parallel Computation of Morse-Smale Complexes",
+        "type": "article",
+        "year": "2020"
+    },
     "SumnerPopovic2004": {
         "author": "Sumner, Robert W and Popovi{\\'c}, Jovan",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1706,7 +1857,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "Scientific Reports",
-        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other, networds",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other, networks",
         "number": "17557",
         "title": "comparing methods for comparing networks",
         "type": "article",
@@ -1718,7 +1869,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "{IEEE} Transactions on Visualization and Computer Graphics",
-        "keywords": "visualization_tasks:single scalar field,visualization_subtasks:symmetry detection,topological_descriptors:contour tree,comparative_measures:Distance based on subtrees, applications:other",
+        "keywords": "visualization_tasks:single scalar field,visualization_subtasks:symmetry detection,topological_descriptors:contour tree,comparative_measures:Distance based on subtrees, applications:structural biology",
         "number": "12",
         "pages": "2035-2044",
         "title": "Symmetry in scalar field topology",
@@ -1731,7 +1882,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "{IEEE} Transactions of Visualization and Computer Graphics",
-        "keywords": "visualization_tasks:single scalar field, visualization_subtasks:symmetry detection, topological_descriptors:extremum graph, comparative_measures:other, applications:other",
+        "keywords": "visualization_tasks:single scalar field, visualization_subtasks:symmetry detection, topological_descriptors:extremum graph, comparative_measures:other, applications:structural biology",
         "number": "12",
         "pages": "2663-2672",
         "title": "Detecting symmetry in scalar fields using augmented extremum graphs",
@@ -1744,7 +1895,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "{IEEE} Transactions on Visualization and Computer Graphics",
-        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other, clustering contours",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:structural biology, clustering contours",
         "number": "12",
         "pages": "2427-2436",
         "title": "Multiscale symmetry detection in scalar fields by clustering contours",
@@ -1798,7 +1949,7 @@
         "volume": "3",
         "year": "2014"
     },
-    "ValsangkarMonteiroNarayanan2018": {
+    "ValsangkarMonteiroNarayanan2019": {
         "author": "Akash Anil Valsangkar and Joy Merwin Monteiro and Vidya Narayanan and Ingrid Hotz and Vijay Natarajan",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
@@ -1809,7 +1960,7 @@
         "title": "An Exploratory Framework for Cyclone Identification and Tracking",
         "type": "article",
         "volume": "25",
-        "year": "2018"
+        "year": "2019"
     },
     "VerdiereGinotGoaoc2012": {
         "author": "\\'{E}ric Colin de Verdi\\'{e}re and Gr\\'{e}gory Ginot and Xavier Goaoc",
@@ -1827,7 +1978,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "{IEEE} Transactions on Visualization and Computer Graphics",
-        "keywords": "visualization_tasks:scalar field ensemble,visualization_subtasks:clustering and classification,topological_descriptors:persistence diagram, comparative_measures:wasserstein distance, applications:other",
+        "keywords": "visualization_tasks:scalar field ensemble,visualization_subtasks:clustering and classification,topological_descriptors:persistence diagram, comparative_measures:wasserstein distance, applications:CFD",
         "number": "1",
         "pages": "151-161",
         "title": "Progressive Wasserstein Barycenters of Persistence Diagrams",
@@ -1842,7 +1993,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "editor": "Valerio Pascucci and Xavier Tricoche and Hans Hagen and Julien Tierny",
-        "keywords": "topological_descriptors:reeb graph,visualization_tasks:time-varying scalar field, visualization_subtasks:space-time structures, comparative_measures:other, applications:other, visualization_subtasks:feature tracking",
+        "keywords": "topological_descriptors:reeb graph,visualization_tasks:time-varying scalar field, visualization_subtasks:space-time structures, comparative_measures:other, applications:combustion studies, visualization_subtasks:feature tracking",
         "publisher": "Springer",
         "title": "Feature Tracking Using Reeb Graphs",
         "type": "incollection",
@@ -1854,7 +2005,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "visualization_tasks:time-varying scalar field,topological_descriptors:critical points,visualization_subtasks:feature tracking, comparative_measures:other, applications:other",
+        "keywords": "visualization_tasks:time-varying scalar field,topological_descriptors:critical points,visualization_subtasks:feature tracking, comparative_measures:other, applications:CFD",
         "number": "6",
         "pages": "770-780",
         "title": "Stable Feature Flow Fields",
@@ -1880,7 +2031,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "journal": "International Journal for Uncertainty Quantification",
-        "keywords": "visualization_tasks:scalar field ensemble, visualization_subtasks:uncertainty visualization, topological_descriptors:contour tree, comparative_measures:other,applications:other",
+        "keywords": "visualization_tasks:scalar field ensemble, visualization_subtasks:uncertainty visualization, topological_descriptors:contour tree, comparative_measures:other,applications:climate science, neuroscience",
         "number": "3",
         "publisher": "Begel House Inc.",
         "title": "A contour tree based visualization for exploring data with uncertainty",
@@ -1962,6 +2113,16 @@
         "title": "Learning metrics for persistence-based summaries and applications for graph classification",
         "type": "inproceedings",
         "year": "2019"
+    },
+    "ZhouChalapathiRathore2020": {
+        "author": "Youjia Zhou and Nithin Chalapathi and Archit Rathore and Yaodong Zhao and Bei Wang",
+        "date-added": "2021-02-06 14:02:21 -0700",
+        "date-modified": "2021-02-06 14:03:05 -0700",
+        "journal": "arXiv preprint arXiv:2011.03209",
+        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
+        "title": "Mapper Interactive: A Scalable, Extendable, and Interactive Toolbox for the Visual Exploration of High-Dimensional Data",
+        "type": "article",
+        "year": "2020"
     },
     "Zomorodian2005": {
         "author": "Afra Zomorodian",
