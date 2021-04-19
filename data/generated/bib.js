@@ -1,4 +1,14 @@
 ﻿const generatedBibEntries = {
+    "Adams2021": {
+        "author": "Henry Adams",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://www.math.colostate.edu/~adams/advising/appliedTopologySoftware/}",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance,comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "title": "{Applied Topology Software}",
+        "type": "misc",
+        "year": "2021"
+    },
     "AdamsEmersonKirby2017": {
         "author": "Adams, Henry and Emerson, Tegan and Kirby, Michael and Neville, Rachel and Peterson, Chris and Shipman, Patrick and Chepushtanova, Sofya and Hanson, Eric and Motta, Francis and Ziegelmeier, Lori",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -54,7 +64,6 @@
         "date-added": "2021-02-07 12:55:22 -0700",
         "date-modified": "2021-02-07 12:55:22 -0700",
         "journal": "The Visualization Handbook",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "717",
         "title": "ParaView: An End-User Tool for Large-Data Visualization",
         "type": "article",
@@ -125,6 +134,17 @@
         "title": "Measuring Distance between {Reeb} Graphs",
         "type": "article",
         "year": "2014"
+    },
+    "BauerKerberReininghaus2021": {
+        "author": "Ulrich Bauer and Michael Kerber and Jan Reininghaus and Hubert Wagner and Bryn Keller",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://bitbucket.org/phat-code/phat/}",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "PHAT",
+        "title": "{PHAT (Persistent Homology Algorithm Toolbox)}",
+        "type": "misc",
+        "year": "2021"
     },
     "BauerLandiMemoli2020": {
         "abstract": "We consider the setting of Reeb graphs of piecewise linear functions and study distances between them that are stable, meaning that functions which are similar in the supremum norm ought to have similar Reeb graphs. We define an edit distance for Reeb graphs and prove that it is stable and universal, meaning that it provides an upper bound to any other stable distance. In contrast, via a specific construction, we show that the interleaving distance and the functional distortion distance on Reeb graphs are not universal.",
@@ -396,7 +416,6 @@
         "date-added": "2021-02-07 11:51:54 -0700",
         "date-modified": "2021-02-07 11:52:13 -0700",
         "journal": "Discrete {\\&} Computational Geometry",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "number": "1",
         "pages": "71-93",
         "title": "The Theory of Multidimensional Persistence",
@@ -497,6 +516,13 @@
         "volume": "4",
         "year": "2020"
     },
+    "CavannaJahanseirSheehy2015": {
+        "author": "Nicholas J. Cavanna and Mahmoodreza Jahanseir and Donald R. Sheehy",
+        "booktitle": "Proceedings of the Canadian Conference on Computational Geometry",
+        "title": "A Geometric Perspective on Sparse Filtrations",
+        "type": "inproceedings",
+        "year": "2015"
+    },
     "ChazalCohen-SteinerGlisse2009": {
         "address": "New York, NY, USA",
         "author": "Chazal, Fr{\\'{e}}d{\\'{e}}ric and Cohen-Steiner, David and Glisse, Marc and Guibas, Leonidas J. and Oudot, Steve Y.",
@@ -541,10 +567,18 @@
         "date-added": "2021-02-06 13:29:57 -0700",
         "date-modified": "2021-02-06 13:29:57 -0700",
         "journal": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "842-843",
         "title": "Gromov-Wasserstein Averaging in a Riemannian Framework",
         "type": "article",
+        "year": "2020"
+    },
+    "ChungLawson2020": {
+        "author": "Yu-Min Chung and Austin Lawson",
+        "date-added": "2021-04-13 14:51:28 -0600",
+        "date-modified": "2021-04-13 14:52:42 -0600",
+        "howpublished": "arXiv preprint arXiv:1904.07768",
+        "title": "Persistence Curves: A Canonical Framework forSummarizing Persistence Diagrams",
+        "type": "misc",
         "year": "2020"
     },
     "Cohen-SteinerEdelsbrunnerHarer2007": {
@@ -619,6 +653,28 @@
         "title": "Comparing Graphs via Persistence Distortion",
         "type": "article",
         "year": "2015"
+    },
+    "Doraiswamy2021": {
+        "author": "Doraiswamy, Harish",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://github.com/harishd10/contour-tree}",
+        "keywords": "topological_descriptors:contour trees, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "ContourTree",
+        "title": "{Contour Tree}",
+        "type": "misc",
+        "year": "2021"
+    },
+    "DoraiswamyNatarajan2021": {
+        "author": "Doraiswamy, Harish and Natarajan, Vijay",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://bitbucket.org/vgl\\_iisc/reconjava}",
+        "keywords": "topological_descriptors:reeb graphs, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "Recon",
+        "title": "{Recon}",
+        "type": "misc",
+        "year": "2021"
     },
     "DoraiswamyNatarajanNanjundiah2013": {
         "author": "Doraiswamy, Harish and Natarajan, Vijay and Nanjundiah, Ravi S",
@@ -763,6 +819,17 @@
         "type": "article",
         "year": "2020"
     },
+    "FasyKimLecci2021": {
+        "author": "Brittany T Fasy and Jisu Kim and Fabrizio Lecci and Clement Maria and David L. Millman and Vincent Rouvreau",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://rdrr.io/cran/TDA/}",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "R-TDA",
+        "title": "{R-TDA}",
+        "type": "misc",
+        "year": "2021"
+    },
     "FavelierFarajSumma2018": {
         "author": "Favelier, Guillaume and Faraj, Noura and Summa, Brian and Tierny, Julien",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -795,12 +862,22 @@
         "date-added": "2021-02-06 13:56:53 -0700",
         "date-modified": "2021-02-06 13:57:59 -0700",
         "journal": "Computational Astrophysics and Cosmology",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "1-18",
         "title": "In situ and in-transit analysis of cosmological simulations",
         "type": "article",
         "volume": "3",
         "year": "2016"
+    },
+    "GameiroMischaikowKalies2004": {
+        "author": "Marcio Gameiro and Konstantin Mischaikow and William Kalies",
+        "date-added": "2021-04-13 14:41:49 -0600",
+        "date-modified": "2021-04-13 14:42:49 -0600",
+        "journal": "Physical Review E",
+        "number": "035203",
+        "title": "Topological characterization of spatial-temporal chaos",
+        "type": "article",
+        "volume": "70",
+        "year": "2004"
     },
     "GasparovicMunchOudot2019": {
         "author": "Ellen Gasparovic and Elizabeth Munch and Steve Oudot and Katharine Turner and Bei Wang and Yusu Wang",
@@ -849,13 +926,23 @@
         "volume": "45",
         "year": "2008"
     },
+    "Gudhi2021": {
+        "author": "{The Gudhi Developers}",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{http://gudhi.gforge.inria.fr/}",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:persistence diagrams, comparative_measures:bottleneck distances, applications:other",
+        "software": "Gudhi",
+        "title": "{Gudhi 3.4.1}",
+        "type": "misc",
+        "year": "2021"
+    },
     "GuntherReininghausSeidel2014": {
         "author": "David G\\\"{u}nther and Jan Reininghaus and Hans-Peter Seidel and Tino Weinkauf",
         "booktitle": "Topological Methods in Data Analysis and Visualization III",
         "date-added": "2021-02-07 11:44:41 -0700",
         "date-modified": "2021-02-07 11:44:41 -0700",
         "editor": "Bremer, Peer-Timo and Hotz, Ingrid and Pascucci, Valerio and Peikert, Ronald",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "135-150",
         "publisher": "Springer International Publishing",
         "title": "Notes on the Simplification of the {M}orse-{S}male Complex",
@@ -874,6 +961,17 @@
         "type": "article",
         "volume": "33",
         "year": "2014"
+    },
+    "Gyulassy2021": {
+        "author": "{Gyulassy, Attila}",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://github.com/sci-visus/MSCEER}",
+        "keywords": "visualization_tasks:other, visualization_subtasks:other, topological_descriptors: morse-smale complex, applications:other, comparative_measures:other",
+        "software": "MSCEER",
+        "title": "{MSCEER - Morse Smale Complex Extraction, Exploration, Reasoning}",
+        "type": "misc",
+        "year": "2021"
     },
     "GyulassyBremerGrout2014": {
         "author": "Gyulassy, Attila and Bremer, Peer-Timo and Grout, Ray and Kolla, Hemanth and Chen, Jacqueline and Pascucci, Valerio",
@@ -894,7 +992,6 @@
         "date-added": "2021-02-07 12:47:16 -0700",
         "date-modified": "2021-02-07 12:47:54 -0700",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "number": "1",
         "pages": "1183-1192",
         "title": "Shared-Memory Parallel Computation of Morse-Smale Complexes with Improved Accuracy",
@@ -907,7 +1004,6 @@
         "date-added": "2021-02-06 14:08:08 -0700",
         "date-modified": "2021-02-06 14:08:08 -0700",
         "journal": "Proceedings of the Future Technologies Conference (FTC)",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "717-731",
         "title": "Parallel Mapper",
         "type": "article",
@@ -919,7 +1015,6 @@
         "date-added": "2021-02-06 13:13:48 -0700",
         "date-modified": "2021-02-06 13:13:48 -0700",
         "journal": "IEEE Pacific Visualization Symposium (PacificVis)",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "title": "Visual Detection of Structural Changes in Time-Varying Graphs Using Persistent Homology",
         "type": "article",
         "year": "2018"
@@ -1064,6 +1159,17 @@
         "volume": "22",
         "year": "2017"
     },
+    "KerberMorozovNigmetov2021": {
+        "author": "Kerber, Michael and Morozov, Dmitriy and Nigmetov, Arnur",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://bitbucket.org/grey\\_narn/hera/}",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "HERA",
+        "title": "{HERA}",
+        "type": "misc",
+        "year": "2021"
+    },
     "KleinTirthapuraSharvit2000": {
         "address": "San Francisco, CA, USA",
         "author": "Klein, Philip and Tirthapura, Srikanta and Sharvit, Daniel and Kimia, Ben",
@@ -1130,7 +1236,6 @@
         "author": "Michael Lesnick",
         "date-added": "2021-02-07 11:54:19 -0700",
         "date-modified": "2021-02-07 11:55:02 -0700",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "school": "Stanford University",
         "title": "Multidimensional Interleavings and Applications to Topological Inference",
         "type": "phdthesis",
@@ -1141,7 +1246,6 @@
         "date-added": "2021-02-06 13:24:37 -0700",
         "date-modified": "2021-02-06 13:25:15 -0700",
         "journal": "arXiv preprint arXiv:2101.03196",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "title": "Sketching Merge Trees",
         "type": "article",
         "year": "2021"
@@ -1286,6 +1390,17 @@
         "type": "book",
         "year": "1963"
     },
+    "Morozov2021": {
+        "author": "Dmitriy Morozov",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://mrzv.org/software/dionysus2/}",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "Dionysus",
+        "title": "Dionysus",
+        "type": "misc",
+        "year": "2021"
+    },
     "MorozovBeketayevWeber2013": {
         "author": "Dmitriy Morozov and Kenes Beketayev and Gunther Weber",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1301,7 +1416,6 @@
         "date-added": "2021-02-06 14:09:03 -0700",
         "date-modified": "2021-02-06 14:09:35 -0700",
         "journal": "Proceedings of the {ACM SIGPLAN} Symposium on Principles and Practice of Parallel Programming",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "93-102",
         "title": "Distributed Merge Trees",
         "type": "article",
@@ -1312,7 +1426,6 @@
         "date-added": "2021-02-06 14:09:03 -0700",
         "date-modified": "2021-02-06 14:09:03 -0700",
         "journal": "Topological Methods in Data Analysis and Visualization III: Theory, Algorithms, and Applications, Mathematics and Visualization",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "pages": "89-102",
         "title": "Distributed Contour Trees",
         "type": "article",
@@ -1384,6 +1497,17 @@
         "volume": "30",
         "year": "2011"
     },
+    "Narayanan2021": {
+        "author": "Narayanan, Vidya",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://bitbucket.org/vgl\\_iisc/compextgraph/}",
+        "keywords": "visualization_tasks:time-varying fields, visualization_subtasks:periodicity detection, topological_descriptors: extremum graph, applications:other, comparative_measures:other",
+        "software": "CompleteExtremumGraph",
+        "title": "{Complete Extremum Graph}",
+        "type": "misc",
+        "year": "2021"
+    },
     "NarayananThomasNatarajan2015": {
         "author": "Narayanan, Vidya and Thomas, Dilip Mathew and Natarajan, Vijay",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1426,6 +1550,17 @@
         "title": "Multi-resolution computation and presentation of contour trees",
         "type": "article",
         "year": "2004"
+    },
+    "Persim2021": {
+        "author": "{The Persim Developers}",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://github.com/scikit-tda/persim}",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other, topological_descriptors:persistence diagrams, topological_descriptors:sliced Wasserstein kernel, comparative_measures:bottleneck distances, applications:other",
+        "software": "Persim",
+        "title": "{Persim 0.3.0}",
+        "type": "misc",
+        "year": "2021"
     },
     "PocoDoraiswamyTalbert2015": {
         "author": "Jorge Poco and Harish Doraiswamy and Marian Talbert and Jeffrey Morisette and Cl{\\'a}udio T. Silva",
@@ -1605,6 +1740,18 @@
         "type": "incollection",
         "year": "2020"
     },
+    "RieckSadloLeitte2020b": {
+        "author": "Rieck, Bastian and Sadlo, Filip and Leitte, Heike",
+        "booktitle": "Topological Methods in Data Analysis and Visualization V: Theory, Algorithms, and Applications",
+        "date-modified": "2021-04-13 16:22:56 -0600",
+        "editor": "Hamish Carr and Filip Sadlo and Issei Fujishiro and Shigeo Takahashi",
+        "organization": "Springer",
+        "pages": "87-101",
+        "publisher": "Springer International Publishing",
+        "title": "Topological machine learning with persistence indicator functions",
+        "type": "incollection",
+        "year": "2020"
+    },
     "RistadYianilos1998": {
         "author": "Ristad, Eric Sven and Yianilos, Peter N",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1619,6 +1766,20 @@
         "volume": "20",
         "year": "1998"
     },
+    "Robins2002": {
+        "address": "Berlin, Heidelberg",
+        "author": "Vanessa Robins",
+        "booktitle": "Morphology of Condensed Matter. Lecture Notes in Physics",
+        "date-added": "2021-04-13 14:44:15 -0600",
+        "date-modified": "2021-04-13 14:45:53 -0600",
+        "editor": "Klaus Mecke and Dietrich Stoyan",
+        "pages": "261-274",
+        "publisher": "Springer",
+        "title": "Computational Topology for Point Data: Betti Numbers of $\\alpha$-Shapes",
+        "type": "incollection",
+        "volume": "600",
+        "year": "2002"
+    },
     "SaggarSpornsGonzalez-Castillo2019": {
         "abstract": "Little is known about how our brains dynamically adapt for efficient functioning. Most pre- vious work has focused on analyzing changes in co-fluctuations between a set of brain regions over several temporal segments of the data. We argue that by collapsing data in space or time, we stand to lose useful information about the brain's dynamical organization. Here we use Topological Data Analysis to reveal the overall organization of whole-brain activity maps at a single-participant level---as an interactive representation---without arbitrarily collapsing data in space or time. Using existing multitask fMRI datasets, with the known ground truth about the timing of transitions from one task-block to next, our approach tracks both within- and between-task transitions at a much faster time scale (~4--9 s) than before. The individual differences in the revealed dynamical organization predict task performance. In summary, our approach distills complex brain dynamics into interactive and behaviorally relevant representations.",
         "author": "Manish Saggar and Olaf Sporns and Javier Gonzalez-Castillo and Peter A. Bandettini and Gunnar Carlsson and Gary Glover and Allan L. Reiss",
@@ -1631,6 +1792,17 @@
         "type": "article",
         "volume": "9",
         "year": "2018"
+    },
+    "Saikia2021": {
+        "author": "{Saikia, Himangshu}",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://github.com/hsaikia/mtlib}",
+        "keywords": "visualization_tasks:scalar fields, visualization_tasks:time-varying fields,visualization_subtasks:merge tree tracking, visualization_subtasks:symmetry detection, topological_descriptors:merge trees, comparative_measures:chi-squared distance, applications:other",
+        "software": "mtlib",
+        "title": "{mtlib}",
+        "type": "misc",
+        "year": "2021"
     },
     "SaikiaSeidelWeinkauf2014": {
         "author": "Saikia, Himangshu and Seidel, Hans Peter and Weinkauf, Tino",
@@ -1730,6 +1902,17 @@
         "type": "techreport",
         "year": "2002"
     },
+    "ShivashankarNatarajan2021": {
+        "author": "Shivashankar, Nithin and Natarajan, Vijay",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://bitbucket.org/vgl\\_iisc/mscomplex-3d/}",
+        "keywords": "topological_descriptors:morse-smale complex, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "mscomplex-3d",
+        "title": "{mscomplex-3d}",
+        "type": "misc",
+        "year": "2021"
+    },
     "Sikora2001": {
         "author": "Sikora, Thomas",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1822,7 +2005,6 @@
         "date-added": "2021-02-07 12:45:51 -0700",
         "date-modified": "2021-02-07 12:46:38 -0700",
         "journal": "IEEE Visualization Conference",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "title": "GPU Parallel Computation of Morse-Smale Complexes",
         "type": "article",
         "year": "2020"
@@ -1903,6 +2085,17 @@
         "volume": "20",
         "year": "2014"
     },
+    "ThomasNatarajan2021": {
+        "author": "Thomas, Dilip and Natarajan, Vijay",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://vgl.csa.iisc.ac.in/symmetryViewer/}",
+        "keywords": "topological_descriptors:contour trees, topological_descriptors:extremum graphs, comparative_measures:other, visualization_tasks:scalar field, visualization_subtasks:symmetry detection, applications:other",
+        "software": "SymmetryViewer",
+        "title": "{SymmetryViewer}",
+        "type": "misc",
+        "year": "2021"
+    },
     "Tierny2017": {
         "author": "Julien Tierny",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1924,6 +2117,15 @@
         "type": "article",
         "volume": "24",
         "year": "2018"
+    },
+    "TiernyFavelierLevine2021": {
+        "author": "Julien Tierny and Guillaume Favelier and Joshua A. Levine and Charles Gueunet and Michael Michaux",
+        "howpublished": "\\url{https://topology-tool-kit.github.io/}",
+        "keywords": "visualization_tasks:other, visualization_subtasks:other, topological_descriptors: other, applications:other, comparative_measures:other",
+        "software": "TTK",
+        "title": "The {T}opology {T}ool{K}it",
+        "type": "misc",
+        "year": "2021"
     },
     "TouliWang2019": {
         "author": "Elena Farahbakhsh Touli and Yusu Wang",
@@ -2039,6 +2241,16 @@
         "volume": "3",
         "year": "2013"
     },
+    "Yan2021": {
+        "author": "{Yan, Lin}",
+        "date-added": "2021-02-05 09:39:05 +0100",
+        "date-modified": "2021-02-05 09:39:05 +0100",
+        "howpublished": "\\url{https://github.com/tdavislab/amt}",
+        "keywords": "visualization_tasks:scalar field ensemble,visualization_subtasks:summarization, topological_descriptors:merge tree,visualization_subtasks:interactive exploration, visualization_subtasks:uncertainty visualization, applications:other, comparative_measures:other",
+        "title": "{Average Merge Tree}",
+        "type": "misc",
+        "year": "2021"
+    },
     "YanWangMunch2020": {
         "author": "Yan, Lin and Wang, Yusu and Munch, Elizabeth and Gasparovic, Ellen and Wang, Bei",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -2119,7 +2331,6 @@
         "date-added": "2021-02-06 14:02:21 -0700",
         "date-modified": "2021-02-06 14:03:05 -0700",
         "journal": "arXiv preprint arXiv:2011.03209",
-        "keywords": "topological_descriptors:other, visualization_tasks:other, visualization_subtasks:other, comparative_measures:other, applications:other",
         "title": "Mapper Interactive: A Scalable, Extendable, and Interactive Toolbox for the Visual Exploration of High-Dimensional Data",
         "type": "article",
         "year": "2020"
@@ -2140,7 +2351,7 @@
         "author": "{The RIVET Developers}",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
-        "howpublished": "https://github.com/rivetTDA/rivet/",
+        "howpublished": "\\url{https://github.com/rivetTDA/rivet/}",
         "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other",
         "title": "{RIVET 1.1.0}",
         "type": "misc",

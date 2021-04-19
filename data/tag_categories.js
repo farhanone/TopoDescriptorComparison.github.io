@@ -13,8 +13,7 @@ const userDefinedTagCategories = {
 	},
 	"applications":{
 		"description": "applications"
-	}
-	
+	}	
 	
 }
 

@@ -1,5 +1,5 @@
 const userDefinedAuthorizedTags = {
-/*	"type:system": {
+/*	"applications:cfd": {
 		"description": "paper describing a system"
 	}
 */	
