@@ -1,14 +1,4 @@
 ﻿const generatedBibEntries = {
-    "Adams2021": {
-        "author": "Henry Adams",
-        "date-added": "2021-02-05 09:39:05 +0100",
-        "date-modified": "2021-02-05 09:39:05 +0100",
-        "howpublished": "\\url{https://www.math.colostate.edu/~adams/advising/appliedTopologySoftware/}",
-        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance,comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
-        "title": "{Applied Topology Software}",
-        "type": "misc",
-        "year": "2021"
-    },
     "AdamsEmersonKirby2017": {
         "author": "Adams, Henry and Emerson, Tegan and Kirby, Michael and Neville, Rachel and Peterson, Chris and Shipman, Patrick and Chepushtanova, Sofya and Hanson, Eric and Motta, Francis and Ziegelmeier, Lori",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -110,6 +100,16 @@
         "volume": "30",
         "year": "2014"
     },
+    "Bauer2021": {
+        "author": "Ulrich Bauer",
+        "date-added": "2021-04-20 13:10:40 -0600",
+        "date-modified": "2021-04-20 13:12:04 -0600",
+        "howpublished": "\\url{https://github.com/Ripser/ripser}",
+        "software": "Ripser",
+        "title": "Ripser",
+        "type": "misc",
+        "year": "2021"
+    },
     "BauerDiFabioLandi2016": {
         "author": "Bauer, U. And Di Fabio, B. And Landi, C.",
         "bdsk-url-1": "http://amsacta.unibo.it/4705/",
@@ -140,9 +140,9 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://bitbucket.org/phat-code/phat/}",
-        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "software": "PHAT",
-        "title": "{PHAT (Persistent Homology Algorithm Toolbox)}",
+        "title": "{Persistent Homology Algorithm Toolbox (PHAT)}",
         "type": "misc",
         "year": "2021"
     },
@@ -461,6 +461,26 @@
         "volume": "24",
         "year": "2003"
     },
+    "CarriereBlumberg2020": {
+        "author": "Mathieu Carri\\'{e}re and Andrew Blumberg",
+        "date-added": "2021-04-19 23:23:51 -0600",
+        "date-modified": "2021-04-19 23:23:51 -0600",
+        "journal": "Advances in Neural Information Processing Systems 33 (NeurIPS 2020)",
+        "title": "Multiparameter Persistence Image for Topological Machine Learning",
+        "type": "article",
+        "year": "2020"
+    },
+    "CarriereChazalIke2020": {
+        "author": "Mathieu Carriere and Frederic Chazal and Yuichi Ike and Theo Lacombe and Martin Royer and Yuhei Umeda",
+        "date-added": "2021-04-20 13:47:40 -0600",
+        "date-modified": "2021-04-20 13:55:46 -0600",
+        "journal": "Proceedings of the 23rd International Conference on Artificial Intelligence and Statistics, PMLR",
+        "pages": "2786-2796",
+        "title": "{PersLay}: A Neural Network Layer for Persistence Diagrams andNew Graph Topological Signatures",
+        "type": "article",
+        "volume": "108",
+        "year": "2020"
+    },
     "CarriereCuturiOudot2017": {
         "abstract": "Persistence diagrams (PDs) play a key role in topological data analysis (TDA), in which they are routinely used to describe topological properties of complicated shapes. PDs enjoy strong stability properties and have proven their utility in various learning contexts. They do not, however, live in a space naturally endowed with a Hilbert structure and are usually compared with specific distances, such as the bottleneck distance. To incorporate PDs in a learning pipeline, several kernels have been proposed for PDs with a strong emphasis on the stability of the RKHS distance w.r.t. perturbations of the PDs. In this article, we use the Sliced Wasserstein approximation SW of the Wasserstein distance to define a new kernel for PDs, which is not only provably stable but also provably discriminative (depending on the number of points in the PDs) w.r.t. the Wasserstein distance {\\$}d{\\_}1{\\$} between PDs. We also demonstrate its practicality, by developing an approximation technique to reduce kernel computation time, and show that our proposal compares favorably to existing kernels for PDs on several benchmarks.",
         "author": "Carri{\\`{e}}re, Mathieu and Cuturi, Marco and Oudot, Steve",
@@ -661,7 +681,7 @@
         "howpublished": "\\url{https://github.com/harishd10/contour-tree}",
         "keywords": "topological_descriptors:contour trees, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "software": "ContourTree",
-        "title": "{Contour Tree}",
+        "title": "{Topological Data Analysis using Contour Trees (contour-tree)}",
         "type": "misc",
         "year": "2021"
     },
@@ -824,8 +844,8 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://rdrr.io/cran/TDA/}",
-        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
-        "software": "R-TDA",
+        "keywords": "topological_descriptors:persistence diagram, topological_descriptors:persistence landscapes, comparative_measures:bottleneck distance, comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "software": "R_TDA",
         "title": "{R-TDA}",
         "type": "misc",
         "year": "2021"
@@ -927,11 +947,11 @@
         "year": "2008"
     },
     "Gudhi2021": {
-        "author": "{The Gudhi Developers}",
+        "author": "{Gudhi Developers}",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{http://gudhi.gforge.inria.fr/}",
-        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:persistence diagrams, comparative_measures:bottleneck distances, applications:other",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:persistence diagrams, topological_descriptors:barcodes, comparative_measures:bottleneck distances, applications:other",
         "software": "Gudhi",
         "title": "{Gudhi 3.4.1}",
         "type": "misc",
@@ -1054,6 +1074,16 @@
         "type": "article",
         "year": "2001"
     },
+    "HoferKwittNiethammer2017": {
+        "author": "Hofer, Christoph and Kwitt, Roland and Niethammer, Marc and Uhl, Andreas",
+        "date-added": "2021-04-20 13:58:36 -0600",
+        "date-modified": "2021-04-20 13:58:36 -0600",
+        "journal": "Advances in Neural Information Processing Systems",
+        "pages": "1634-1644",
+        "title": "Deep learning with topological signatures",
+        "type": "article",
+        "year": "2017"
+    },
     "HopcroftKarp1973": {
         "author": "Hopcroft, John E and Karp, Richard M",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1164,7 +1194,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://bitbucket.org/grey\\_narn/hera/}",
-        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "software": "HERA",
         "title": "{HERA}",
         "type": "misc",
@@ -1390,12 +1420,23 @@
         "type": "book",
         "year": "1963"
     },
+    "MoorHornRieck2020": {
+        "author": "Michael Moor and Max Horn and Bastian Rieck and Karsten Borgwardt",
+        "date-added": "2021-04-20 14:01:47 -0600",
+        "date-modified": "2021-04-20 14:02:32 -0600",
+        "journal": "Proceedings of the 37th International Conference on Machine Learning, PMLR",
+        "pages": "7045-7054",
+        "title": "Topological Autoencoders",
+        "type": "article",
+        "volume": "119",
+        "year": "2020"
+    },
     "Morozov2021": {
         "author": "Dmitriy Morozov",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://mrzv.org/software/dionysus2/}",
-        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
+        "keywords": "topological_descriptors:persistence diagram, comparative_measures:bottleneck distance, comparative_measures:Wasserstein distance, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "software": "Dionysus",
         "title": "Dionysus",
         "type": "misc",
@@ -1502,7 +1543,7 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://bitbucket.org/vgl\\_iisc/compextgraph/}",
-        "keywords": "visualization_tasks:time-varying fields, visualization_subtasks:periodicity detection, topological_descriptors: extremum graph, applications:other, comparative_measures:other",
+        "keywords": "visualization_tasks:time-varying fields, visualization_subtasks:periodicity detection, topological_descriptors: extremum graph, applications:other, comparative_measures:others",
         "software": "CompleteExtremumGraph",
         "title": "{Complete Extremum Graph}",
         "type": "misc",
@@ -1530,6 +1571,18 @@
         "type": "inproceedings",
         "year": "2020"
     },
+    "OtterPorterTillmann2017": {
+        "author": "Otter, Nina and Porter, Mason A and Tillmann, Ulrike and Grindrod, Peter and Harrington, Heather A",
+        "howpublished": "\\url{https://github.com/n-otter/PH-roadmap}",
+        "journal": "EPJ Data Science",
+        "pages": "1--38",
+        "publisher": "Springer",
+        "software": "PH_roadmap",
+        "title": "A roadmap for the computation of persistent homology",
+        "type": "article",
+        "volume": "6",
+        "year": "2017"
+    },
     "Oudot2017": {
         "author": "Steve Y. Oudot",
         "date-added": "2021-02-05 09:39:05 +0100",
@@ -1551,14 +1604,24 @@
         "type": "article",
         "year": "2004"
     },
+    "Perseus": {
+        "author": "Vidit Nanda",
+        "date-added": "2021-04-20 14:18:47 -0600",
+        "date-modified": "2021-04-20 14:20:10 -0600",
+        "howpublished": "\\url{http://www.sas.upenn.edu/~vnanda/perseus}",
+        "lastchecked": "Accessed 4/20/2021",
+        "software": "Perseus",
+        "title": "{Perseus}, the Persistent Homology Software",
+        "type": "misc"
+    },
     "Persim2021": {
-        "author": "{The Persim Developers}",
+        "author": "{Persim Developers}",
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://github.com/scikit-tda/persim}",
-        "keywords": "visualization_tasks:other,visualization_subtasks:other, topological_descriptors:persistence diagrams, topological_descriptors:sliced Wasserstein kernel, comparative_measures:bottleneck distances, applications:other",
+        "keywords": "visualization_tasks:other,visualization_subtasks:other, topological_descriptors:persistence diagrams, topological_descriptors:persistence landscapes, topological_descriptors:sliced Wasserstein kernel, comparative_measures:bottleneck distances, applications:other",
         "software": "Persim",
-        "title": "{Persim 0.3.0}",
+        "title": "{Distances and representations of persistence diagrams (Persim 0.3.0)}",
         "type": "misc",
         "year": "2021"
     },
@@ -1798,9 +1861,9 @@
         "date-added": "2021-02-05 09:39:05 +0100",
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://github.com/hsaikia/mtlib}",
-        "keywords": "visualization_tasks:scalar fields, visualization_tasks:time-varying fields,visualization_subtasks:merge tree tracking, visualization_subtasks:symmetry detection, topological_descriptors:merge trees, comparative_measures:chi-squared distance, applications:other",
+        "keywords": "visualization_tasks:scalar fields, visualization_tasks:time-varying fields, visualization_subtasks:merge tree tracking, visualization_subtasks:symmetry detection, topological_descriptors:merge trees, comparative_measures:chi-squared distance, applications:other",
         "software": "mtlib",
-        "title": "{mtlib}",
+        "title": "{A merge tree library (mtlib)}",
         "type": "misc",
         "year": "2021"
     },
@@ -1909,7 +1972,7 @@
         "howpublished": "\\url{https://bitbucket.org/vgl\\_iisc/mscomplex-3d/}",
         "keywords": "topological_descriptors:morse-smale complex, comparative_measures:other, visualization_tasks:other, visualization_subtasks:other, applications:other",
         "software": "mscomplex-3d",
-        "title": "{mscomplex-3d}",
+        "title": "{mscomplex3d}",
         "type": "misc",
         "year": "2021"
     },
@@ -2121,7 +2184,7 @@
     "TiernyFavelierLevine2021": {
         "author": "Julien Tierny and Guillaume Favelier and Joshua A. Levine and Charles Gueunet and Michael Michaux",
         "howpublished": "\\url{https://topology-tool-kit.github.io/}",
-        "keywords": "visualization_tasks:other, visualization_subtasks:other, topological_descriptors: other, applications:other, comparative_measures:other",
+        "keywords": "visualization_tasks:other, visualization_subtasks:other, topological_descriptors: persistence diagrams, topological_descriptors: merge trees, topological_descriptors: Reeb graphs, topological_descriptors: Morse-Smale complexes, topological_descriptors: mandatory critical points, applications:other, comparative_measures:bottleneck distance, comparative_measures:Wasserstein distance, comparative_measures:lifted Wasserstein metric",
         "software": "TTK",
         "title": "The {T}opology {T}ool{K}it",
         "type": "misc",
@@ -2137,6 +2200,19 @@
         "title": "{FPT}-Algorithms for Computing {G}romov-{H}ausdorff and Interleaving Distances Between Trees",
         "type": "article",
         "year": "2019"
+    },
+    "TurnerMileykoMukherjee2014": {
+        "author": "Turner, Katharine and Mileyko, Yuriy and Mukherjee, Sayan and Harer, John",
+        "bdsk-url-1": "http://dx.doi.org/10.1007/s00454-014-9604-7",
+        "date-added": "2021-04-20 15:40:40 -0600",
+        "date-modified": "2021-04-20 15:41:00 -0600",
+        "journal": "Discrete \\& Computational Geometry",
+        "number": "1",
+        "pages": "44-70",
+        "title": "Fr\\'{e}chet Means for Distributions of Persistence Diagrams",
+        "type": "article",
+        "volume": "52",
+        "year": "2014"
     },
     "TurnerMukherjeeBoyer2014": {
         "author": "Turner, Katharine and Mukherjee, Sayan and Boyer, Doug M",
@@ -2186,6 +2262,26 @@
         "title": "Progressive Wasserstein Barycenters of Persistence Diagrams",
         "type": "article",
         "volume": "26",
+        "year": "2020"
+    },
+    "Villani2003": {
+        "author": "C\\'{e}dric Villani",
+        "date-added": "2021-04-19 23:55:20 -0600",
+        "date-modified": "2021-04-19 23:56:51 -0600",
+        "publisher": "American Mathematical Society",
+        "title": "Topics in Optimal Transportation",
+        "type": "book",
+        "year": "2003"
+    },
+    "Vipond2020": {
+        "author": "Oliver Vipond",
+        "date-added": "2021-04-19 23:24:08 -0600",
+        "date-modified": "2021-04-19 23:24:08 -0600",
+        "journal": "Journal of Machine Learning Research",
+        "pages": "1-38",
+        "title": "Multiparameter Persistence Landscapes",
+        "type": "article",
+        "volume": "21",
         "year": "2020"
     },
     "WeberBremerDay2011": {
@@ -2247,7 +2343,8 @@
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://github.com/tdavislab/amt}",
         "keywords": "visualization_tasks:scalar field ensemble,visualization_subtasks:summarization, topological_descriptors:merge tree,visualization_subtasks:interactive exploration, visualization_subtasks:uncertainty visualization, applications:other, comparative_measures:other",
-        "title": "{Average Merge Tree}",
+        "software": "AMT",
+        "title": "{Average Merge Tree (AMT)}",
         "type": "misc",
         "year": "2021"
     },
@@ -2353,6 +2450,7 @@
         "date-modified": "2021-02-05 09:39:05 +0100",
         "howpublished": "\\url{https://github.com/rivetTDA/rivet/}",
         "keywords": "visualization_tasks:other,visualization_subtasks:other,topological_descriptors:other, comparative_measures:other, applications:other",
+        "software": "RIVET",
         "title": "{RIVET 1.1.0}",
         "type": "misc",
         "year": "2020"

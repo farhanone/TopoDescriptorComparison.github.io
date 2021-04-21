@@ -161,6 +161,13 @@ const entryLayout = (function () {
                 text: 'PDF'
             }).appendTo(linksDiv);
         }
+        if (entry['howpublished']){
+            $('<a>', {
+                href: String.raw`${entry['howpublished']}`.slice(5,-1),
+                target: '_blank',
+                text: 'URL'
+            }).appendTo(linksDiv);
+        }
         if (entry['video']) {
             $('<a>', {
                 href: entry['video'],
@@ -241,12 +248,12 @@ const entryLayout = (function () {
     }
 
     function createTitleDiv(id, entry, pdfFile) {
-        if (typeof bib.availablePdf != 'undefined' && bib.availablePdf.indexOf(id) >= 0 || entry['doi'] || entry['url']) {
+        if (typeof bib.availablePdf != 'undefined' && bib.availablePdf.indexOf(id) >= 0 || entry['doi'] || entry['howpublished']) {
             return $("<a>", {
                 class: "title",
                 html: latexUtil.latexToHtml(entry["title"]),
                 target: '_blank',
-                href: bib.availablePdf.indexOf(id) >= 0 ? pdfFile : (entry['doi'] ? 'http://dx.doi.org/' + entry['doi'] : entry['url'])
+                href: bib.availablePdf.indexOf(id) >= 0 ? pdfFile : (entry['doi'] ? 'http://dx.doi.org/' + entry['doi'] : String.raw`${entry['howpublished']}`.slice(5,-1))
             });
         } else {
             return $("<div>", {
