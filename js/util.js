@@ -21,7 +21,7 @@ const bibUtil = (function () {
             }
 
             if (!fieldString) {
-                fieldString = '?';
+                fieldString = '';
             }
             switch (field) {
                 case 'keywords':
@@ -42,6 +42,15 @@ const bibUtil = (function () {
                     return tags;
                 case 'author':
                     return fieldString.split(' and ');
+                case 'publisher':
+                    if (!fieldString) {
+                	return ['Unkown'];
+            		}
+            	case 'software':
+                    if (!fieldString) {
+                	return ['Not available'];
+            		}
+                    
                 default :
                     return [fieldString];
             }
@@ -78,10 +87,10 @@ const tagUtil = (function () {
                 frequencyClass = 'freq50';
             }
             if (frequency >= 80) {
-                frequencyClass = 'freq80';
+                frequencyClass = 'freq2';
             }
             if (frequency >= 120) {
-                frequencyClass = 'freq120';
+                frequencyClass = 'freq2';
             }
             return frequencyClass;
         }  
